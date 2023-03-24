@@ -288,6 +288,7 @@ int main()
 	expander_init();
 	timer_init();
 
+	uart_printstr("")
 	sei();
 	for(;;)
 	{
